@@ -1,0 +1,47 @@
+Shell Programming Notes - 2
+
+Environment Variables
+
+Naming Convention:
+User Defined Variables - Lower Case Letter
+System Defined Variables - Upper Case Letter
+
+env command is used to list all the environment variables.
+
+User Defined Environment Variables
+
+Shell Variables (bash)
+projdir = /home/km/KM_GITHUB
+ls -la $projdir; cd $projdir
+
+Environment Variables (bash)
+cd $HOME
+export DEBUG=1
+./find_extraterrestial_life
+(displays debug information if DEBUG is set)
+
+Creating a user defined variable
+export <variable_name> = <variable_value>
+export projdir=/home/km/KM_GITHUB
+echo $projdir -> Prints the Project Directory defined to the variable.
+
+System Defined Environment Variables
+LD_LIBRARY_PATH
+MANPATH
+PATH
+PRINTER
+SHELL
+USER
+HOSTNAME
+HOME
+EDITOR
+DISPLAY
+
+Using System Defined User Variable
+echo $USER
+
+
+alias -> Command Shortcut
+alias ls = 'ls -la
+alias rm = 'rm -ri'
+
