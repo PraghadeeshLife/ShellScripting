@@ -1,0 +1,34 @@
+Shell Programming Notes - 1
+
+# Indicates Single Line Comment
+
+#!/bin/sh -> Indicates which shell to run such as csh, bash, tch, etc
+
+C Program Working
+In C Programming, the .c files is a high level file where it is compiled with the help of compiler and provides a binary which is generally of the extension .out,
+which is used to execute and generate the results.
+
+Shell Program Working
+In Shell Programming, the .sh file is treated like a normal text file though it contains an .sh extenstion. The Shell file needs to be given an executable permission
+to run it for the first time, where it can be provided using the chmod command. The program by itself contains the binary files, for example the ls command, grep command,
+cp command point to the Binary File present in the bin directory. So, the shell program doesn't contain any specific compiler and it functions moreover like an interpretor.
+
+C               |  Shell
+printf("Hello") | echo "Hello World"
+scanf()         | read
+
+
+C Programming Contains the datatypes, but whereas in Shell Programming there is no such concept called datatypes.
+
+C Programming requires variables declaration and intialization, whereas Shell Programming doesn't require declaration. One can use it directly.
+
+C Programming contains Header Files whereas the Shell Programming doesn't contain Header files.
+
+C Programming has it entry point as main() function, but Shell Programming doesn't contain main() and it just executes the program from the starting line.
+
+C Program Lifecycle
+Write a Program -> Compile for Binaries -> Run -> Modify the Program -> Compile again to modify the Binaries -> Run
+
+Shell Program Lifecycle
+Write a Program - Modify the Permission to execute using chmod for the first time -> Run -> Modify -> Run
+
